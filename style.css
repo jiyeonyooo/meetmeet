@@ -35,10 +35,11 @@ h1 {
 
 #month {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {
-    background-color: #362FD9;
+    background-color: rgb(39, 123, 192);
     justify-content: center;
     /*align-items: center;*/
     min-height: 100vh;
@@ -46,7 +47,7 @@ body {
   }
 
 nav {
-    background-color: #362FD9;
+    background-color: rgb(39, 123, 192);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,4 +86,17 @@ h3 {
     font-weight: 300;
     font-family: 'NEXON Lv2 Gothic';
     letter-spacing: 0.1em;
+}
+
+.calenderBody {
+    height: 500px;
+    background-color: rgb(255, 244, 207);
+}
+
+.days {
+    height: 30px;
+    background-color: rgb(255, 178, 0);
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: rgb(255, 149, 78);
 }
